@@ -1,0 +1,85 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.display {
+  display: flex;
+  justify-content: space-around;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  padding: 25px
+}
+
+.heading {
+  display: flex;
+  justify-content: space-around;
+  border-top: 5px solid black;
+  background-color: rgba(76, 175, 80, 0.3)
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.display-image img {
+  display: block;
+  height: 100px;
+  width: auto;
+  
+}
+
+.display-song p {
+  font-size: 18px;
+  height: 100px;
+  font-weight: bold;
+  
+}
+
+.display-artist p {
+  font-size: 18px;
+  height: 100px;
+  
+}
+
+
+.display-link a {
+  display: block;
+  font-size: 18px;
+  height: 100px;
+  font-weight: bold;
+  
+}
+
+.form {
+  width: 75%;
+  margin: 0 auto 20px auto;
+  font-size: 18px;
+}
+
+input {
+  padding: 5px 10px;
+  font-size: 14px;
+  color: black;
+}
+
+button {
+  font-size: 14px;
+  padding: 5px 10px;
+  color: black;
+}
+
+body {
+  background: url(https://i.pinimg.com/originals/b8/4f/41/b84f4195a6d33c93d01111287c0c7b7e.jpg);
+color: white;
+}
+
+h4{
+  color: white;
+}
